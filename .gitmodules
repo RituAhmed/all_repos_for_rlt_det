@@ -1,0 +1,9 @@
+[submodule "mmdetection_rlt"]
+	path = mmdetection_rlt
+	url = https://github.com/RituAhmed/mmdetection_rlt.git
+[submodule "cocoplit"]
+	path = cocoplit
+	url = https://github.com/RituAhmed/cocosplit.git
+[submodule "work_dirs"]
+	path = work_dirs
+	url = https://github.com/RituAhmed/work_dirs.git
