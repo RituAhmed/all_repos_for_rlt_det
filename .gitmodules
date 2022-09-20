@@ -7,3 +7,6 @@
 [submodule "work_dirs"]
 	path = work_dirs
 	url = https://github.com/RituAhmed/work_dirs.git
+[submodule "images"]
+	path = images
+	url = git@github.com:RituAhmed/images.git
