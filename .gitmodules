@@ -10,3 +10,6 @@
 [submodule "images"]
 	path = images
 	url = git@github.com:RituAhmed/images.git
+[submodule "cocosplit"]
+	path = cocosplit
+	url = git@github.com:RituAhmed/cocosplit.git
