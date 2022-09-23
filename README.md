@@ -61,5 +61,5 @@ python mmdetection_rlt/tools/test.py mmdetection/configs/faster_rcnn/faster_rcnn
 
 ![Result1](https://github.com/RituAhmed/mmdetection_rlt/blob/f5d9cbf6726190cf1b50490459541e52619ce02e/Demoresult/result10.png)
 ![Result2](https://github.com/RituAhmed/mmdetection_rlt/blob/f5d9cbf6726190cf1b50490459541e52619ce02e/Demoresult/result11.png)
-![Result3](https://github.com/RituAhmed/mmdetection_rlt/blob/f5d9cbf6726190cf1b50490459541e52619ce02e/Demoresult/result20.png)
+![Result3](https://github.com/RituAhmed/mmdetection_rlt/blob/f5d9cbf6726190cf1b50490459541e52619ce02e/Demoresult/result8.png)
 ![Result4](https://github.com/RituAhmed/mmdetection_rlt/blob/f5d9cbf6726190cf1b50490459541e52619ce02e/Demoresult/result15.png)
