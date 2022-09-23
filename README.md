@@ -9,7 +9,7 @@ pip install -U label-studio
 # Launch it!
 label-studio
 ```
-**For the python virtual environment-Anconda has been used. To install the conda follow this link:**
+**For the python virtual environment Anconda has been used. To install the conda follow this link:**
 
 ```
 https://opensourceoptions.com/blog/setup-anaconda-python-to-work-with-visual-studio-code-on-windows/
