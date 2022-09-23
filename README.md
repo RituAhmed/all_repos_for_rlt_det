@@ -1,5 +1,7 @@
-# all_repos_for_rlt_det
-This is the parent repo for all rtl detection related tools, source code, datasets and results.
+# All Repos for RLT Detection
+
+This is the parent repo for all RLT detection related tools, source code, datasets and results.
+
 ## Prerequisites
 
 **All the pictures are collected from** [Google Maps](https://www.google.com/maps).
@@ -37,7 +39,8 @@ First create a dataset under the directory mmdetection_rlt/mmdet/datasets. You c
 
 Next step is to import it in mmdetection_rlt/mmdet/datasets/_init.py_ file.
 We are now ready to select and use any network. In my case i have used Faster RCNN, resnet50 with FPN as a backbone. Faster RCNN is an object detection architecture presented by Ross Girshick, Shaoqing Ren, Kaiming He and Jian Sun in 2015, and is one of the famous object detection architectures that uses convolution neural networks like YOLO (You Look Only Once) and SSD ( Single Shot Detector). For this we need to prepare a config file first. 
-Find the confog file for this projrct [here](https://github.com/RituAhmed/mmdetection_rlt/blob/f5d9cbf6726190cf1b50490459541e52619ce02e/configs/faster_rcnn/faster_rcnn_r50_fpn_1x_rlt.py). Edit the  models, datasets.schedule files under this according to your need.
+Find the config file for this project [here](https://github.com/RituAhmed/mmdetection_rlt/blob/f5d9cbf6726190cf1b50490459541e52619ce02e/configs/faster_rcnn/faster_rcnn_r50_fpn_1x_rlt.py). Edit the  models, datasets, schedule files under this according to your need.
+By default the results folder (work_dirs) is created at the root of mmdetection_rlt directory. To move it somewhere else, add a "work_dir=<your directory>" line in your config file.
 After completing all the steps, to train the model use the following command:
 
 python mmdetection_rlt/tools/train.py mmdetection_rlt/configs/faster_rcnn/faster_rcnn_r50_fpn_1x_rlt.py  
@@ -49,7 +52,7 @@ git clone git@github.com:RituAhmed/all_repos_for_rlt_det.git
 ```
 The trained model can be found [here](https://github.com/RituAhmed/work_dirs/tree/df00be477e3a00c5ba5a19f1b5715b9400b5e326). Extract any of the .rar file under this directory to have the complete traine model/.pth file.
 
-To test them model with single image run the file [inferencedemo.ipynb](https://github.com/RituAhmed/mmdetection_rlt/blob/f5d9cbf6726190cf1b50490459541e52619ce02e/inferencedemo.ipynb).
+To test the trained model with single image run the file [inferencedemo.ipynb](https://github.com/RituAhmed/mmdetection_rlt/blob/f5d9cbf6726190cf1b50490459541e52619ce02e/inferencedemo.ipynb).
 ```
 **Note** Before run the program change the config_file and checkpoint_file address accornding to your adrdress.
 ```
