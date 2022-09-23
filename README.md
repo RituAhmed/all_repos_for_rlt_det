@@ -1,6 +1,6 @@
 # all_repos_for_rlt_det
 This is the parent repo for all rtl detection related tools, source code, datasets and results.
-## Prerequisits
+## Prerequisites
 
 **All the pictures are collected from** [Google Maps](https://www.google.com/maps).
 You can find the dataset for this project in the [images Directory](https://github.com/RituAhmed/images/tree/f82e4fe325b9c75cd62421d53bc674931cc85255). The image annotation task has been done in [Label Studio](https://labelstud.io/). For further image annotation task it is recommended to use this Label Studio and export it as a COCO dataset. To install this application use the following commands:
